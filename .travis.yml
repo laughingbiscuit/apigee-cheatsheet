@@ -1,11 +1,10 @@
-language: go
+language: node_js
 sudo: required
-go:
-- "1.x"
-before_script:
-- go get github.com/googlecodelabs/tools/claat
+before_install:
+- curl -sSLO https://github.com/googlecodelabs/tools/releases/download/v2.2.0/claat-linux-amd64
+- chmod +x claat-linux-amd64
 script:
-  - claat export cheatsheet.md
+- ./claat-linux-amd64 export cheatsheet.md
 deploy:
   edge:
     branch: v1.8.47
