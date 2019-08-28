@@ -1,0 +1,321 @@
+
+<!doctype html>
+
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <meta name="theme-color" content="#4F7DC9">
+  <meta charset="UTF-8">
+  <title>Apigee Cheatsheets</title>
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Code+Pro:400|Roboto:400,300,400italic,500,700|Roboto+Mono">
+  <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://storage.googleapis.com/codelab-elements/codelab-elements.css">
+  <style>
+    .success {
+      color: #1e8e3e;
+    }
+    .error {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <google-codelab-analytics gaid="UA-49880327-14"></google-codelab-analytics>
+  <google-codelab codelab-gaid=""
+                  id="docs"
+                  title="Apigee Cheatsheets"
+                  environment="web"
+                  feedback-link="">
+    
+      <google-codelab-step label="Introduction" duration="0">
+        <p>For each topic, a cheatsheet should show:</p>
+<ul>
+<li>A TL;DR for the topic</li>
+<li>Quick links to useful resources</li>
+<li>An example flow/entity diagram</li>
+<li>Commands to quickly demonstrate the concept</li>
+</ul>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="What is API Management?" duration="0">
+        <h2 is-upgraded>What is an API?</h2>
+<p>An <a href="https://docs.apigee.com/api-platform/get-started/basic-concepts" target="_blank">‘application programming interface&#39;</a> is an interface that makes it easy for one application to ‘consume&#39; capabilities or data from another application.</p>
+<iframe class="youtube-video" src="https://www.youtube.com/embed/TbVtliFXOOY?rel=0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<h2 is-upgraded>APIs as Products?</h2>
+<p>TODO</p>
+<h2 is-upgraded>Developer Experience</h2>
+<ul>
+<li>In 5 seconds, the developer should know what an API does</li>
+<li>In 5 minutes, the developer should have make a successful request</li>
+<li>In 5 days, the developer should have taken their app to production</li>
+</ul>
+<p>If they cannot use your APIs, they will look elsewhere.</p>
+<h2 is-upgraded>Features of API Management</h2>
+<ul>
+<li>Analytics</li>
+<li>Traffic Management</li>
+<li>Developer Engagment</li>
+<li>Monetization</li>
+<li>Security</li>
+<li>Orchestration</li>
+<li>Mediation</li>
+</ul>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Apigee Product Overview" duration="0">
+        <p class="image-container"><img alt="Services" src="img/38f40e9f68308f6a.png"></p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Choosing the first API Use Case" duration="0">
+        <p>TODO</p>
+<h2 is-upgraded>Identity</h2>
+<p>All use cases require some form of identity. We must identify whether to use API Keys, one of the OAuth 2 grant types, Open ID Connect etc.</p>
+<h2 is-upgraded>Business Value</h2>
+<p>TODO</p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Methodology" duration="0">
+        <p>TODO</p>
+<h2 is-upgraded>Building an API Team</h2>
+<p>TODO</p>
+<h2 is-upgraded>User Stories</h2>
+<p>TODO</p>
+<h2 is-upgraded>DoR and DoD</h2>
+<p>TODO</p>
+<h2 is-upgraded>Example Backlog</h2>
+<p>TODO</p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Development Environment Setup" duration="0">
+        <p>TODO</p>
+<h2 is-upgraded>Local Tools</h2>
+<p>TODO</p>
+<h2 is-upgraded>Remote Tools</h2>
+<ul>
+<li>Git</li>
+<li>Node JS</li>
+<li>Maven</li>
+<li>Apigee Edge Environment</li>
+<li>Logging</li>
+</ul>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Continuous Integration" duration="0">
+        <p><a href="https://github.com/apigee/maven-jenkins-ci-demo" target="_blank">Demo</a></p>
+<h2 is-upgraded>Build and Deploy Tools</h2>
+<ul>
+<li>UI</li>
+<li>Management API</li>
+<li>apigeetool</li>
+<li>Maven Plugin</li>
+</ul>
+<h2 is-upgraded>Linting</h2>
+<ul>
+<li>eslint</li>
+<li>bundle-linters</li>
+</ul>
+<h2 is-upgraded>Unit Testing</h2>
+<ul>
+<li>junit</li>
+<li>mocha</li>
+</ul>
+<h2 is-upgraded>Integration Testing</h2>
+<ul>
+<li>apickli</li>
+</ul>
+<h2 is-upgraded>Performance Benchmarking</h2>
+<ul>
+<li>apachebench</li>
+</ul>
+<h2 is-upgraded>Dev Portal Publishing</h2>
+<ul>
+<li>d8 rest api</li>
+</ul>
+<h2 is-upgraded>Publish Results and Notify</h2>
+<ul>
+<li>jenkins reports</li>
+<li>email + slack notifications</li>
+</ul>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Edge Design and Provisioning" duration="0">
+        <p>TODO</p>
+<h2 is-upgraded>Organizations and Environments</h2>
+<p><a href="https://community.apigee.com/questions/22800/how-have-you-setup-your-orgenv-combos.html" target="_blank">Design</a></p>
+<h2 is-upgraded>Physical Separation</h2>
+<ul>
+<li>Regions</li>
+<li>Traffic Isolation</li>
+<li>PCI + HIPAA</li>
+</ul>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Microgateway Design and Installation" duration="0">
+        <p>TODO</p>
+<h2 is-upgraded>Organizations and Environments</h2>
+<p>TODO</p>
+<h2 is-upgraded>Deployment Options</h2>
+<p>TODO</p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Private Cloud Design and Installation" duration="0">
+        <p>TODO</p>
+<h2 is-upgraded>Topology Design</h2>
+<ul>
+<li>Reference Topologies</li>
+<li>Estimator</li>
+<li>etp</li>
+</ul>
+<h2 is-upgraded>Installation and Provisioning</h2>
+<ul>
+<li>shell scripts</li>
+<li>ansible</li>
+</ul>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="RESTful API Design" duration="0">
+        <p>TODO</p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Mocking" duration="0">
+        <ul>
+<li>swagger mock</li>
+<li>apimocker</li>
+<li>assign message</li>
+</ul>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Behaviour Driven Development" duration="0">
+        <ul>
+<li><a href="https://github.com/apickli/apickli.git" target="_blank">apickli</a></li>
+</ul>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Traffic Management" duration="0">
+        <ul>
+<li>spike vs quota</li>
+</ul>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Analytics" duration="0">
+        <ul>
+<li>out of the box</li>
+<li>stats collector</li>
+<li>custom reports</li>
+<li>async reports</li>
+</ul>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Identity" duration="0">
+        <p>(int/ext generated)</p>
+<ul>
+<li>API Key</li>
+<li>Basic Auth</li>
+<li>OAuth 2<br><br><ul>
+<li>Client Credentials</li>
+<li>Password</li>
+<li>Auth Code</li>
+<li>Implicit</li>
+</ul>
+</li>
+<li>OIDC<br><br><ul>
+<li>auth code</li>
+<li>implicit</li>
+<li>hybrid</li>
+</ul>
+</li>
+<li>Extensions<br><br><ul>
+<li>proof of possession</li>
+<li>pkce</li>
+<li>device flow</li>
+<li>eidas</li>
+<li>token by SAML</li>
+</ul>
+</li>
+<li>SAML</li>
+</ul>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Security" duration="0">
+        <ul>
+<li>TLS</li>
+<li>Audit</li>
+<li>RBAC</li>
+<li>Content Based Protection</li>
+<li>Traffic Mgmt</li>
+<li>SIEM integration</li>
+</ul>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Mediation" duration="0">
+        <p>TODO</p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Orchestration" duration="0">
+        <p>TODO</p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Developer Portal" duration="0">
+        <ul>
+<li>Integrated</li>
+<li>D7</li>
+<li>D8</li>
+<li>Roll your own</li>
+</ul>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Monetization" duration="0">
+        <p>TODO</p>
+
+
+      </google-codelab-step>
+    
+  </google-codelab>
+
+  <script src="https://storage.googleapis.com/codelab-elements/native-shim.js"></script>
+  <script src="https://storage.googleapis.com/codelab-elements/custom-elements.min.js"></script>
+  <script src="https://storage.googleapis.com/codelab-elements/prettify.js"></script>
+  <script src="https://storage.googleapis.com/codelab-elements/codelab-elements.js"></script>
+
+</body>
+</html>
