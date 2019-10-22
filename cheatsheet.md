@@ -21,7 +21,13 @@ An ['application programming interface'](https://docs.apigee.com/api-platform/ge
 
 ### APIs as Products?
 
-TODO
+#### The API Product Mindset
+
+![https://www.youtube.com/watch?v=jng8mvb3eB4](https://youtube.com)
+
+#### The API Product Deconstructed
+
+![https://www.youtube.com/watch?v=0jfaqkpm-ts](https://youtube.com)
 
 ### Developer Experience
 
